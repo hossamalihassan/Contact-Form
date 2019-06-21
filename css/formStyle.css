@@ -1,0 +1,81 @@
+body {
+	background-color: #f1f1f1;
+}
+
+form {
+	max-width: 500px;
+	margin: 50px auto;
+}
+
+form .form-group {
+	position: relative;
+}
+
+form input, 
+form textarea {
+	margin-bottom: 20px;
+}
+
+form h1 {
+	margin-bottom: 30px;
+	font-size: 50px;
+	font-family: 'Raleway';
+	color: #5e7368;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+form input[type=submit] {
+	font-size: 20px;
+}
+
+form textarea {
+	height: 140px !important;
+}
+
+form i {
+	height: 0 !important;
+    float: left;
+    position: relative;
+    top: -44px;
+    left: 10px;
+    color: #999;
+}
+
+form .custom-alert {
+	padding: 5px 10px;
+	display: none;
+}
+
+form .form-group span.asterisx {
+	float: right;
+    position: relative;
+    height: 0;
+    color: #b91818;
+    top: -48px;
+    font-size: 22px;
+    right: 11px;
+}
+
+form .form-group span.spc {
+	top: -155px;
+}
+
+form input[type=text],
+form input[type=email],
+form input[type=submit] {
+	padding-left: 35px;
+}
+
+form input[type=submit] {
+	padding-right: 20px;
+}
+
+form .fa-send {
+	float: left;
+	color: #fff;
+	display: block;
+	position: relative;
+	top: 14px;
+	left: 11px;
+}
